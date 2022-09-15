@@ -1,0 +1,17 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Simple Node Project",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe Brunelli de Andrade",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql2": "2.3.3"
+  }
+}
