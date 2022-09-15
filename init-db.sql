@@ -5,4 +5,4 @@ CREATE TABLE people (
 );
 
 INSERT INTO people (name) VALUES ('Felipe Brunelli de Andrade');
-INSERT INTO people (name) VALUES ('Weslley Willians');
+INSERT INTO people (name) VALUES ('Wesley Willians');
