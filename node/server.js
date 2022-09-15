@@ -12,9 +12,6 @@ const dataBaseConfig = {
 }
 
 app.get('/', (req, res) => {
-  let title = '<h1>Full Cycle</h1>';
-  let findings;
-  findings = ''
 
   const conn = createConnection(dataBaseConfig);
 
@@ -27,6 +24,7 @@ app.get('/', (req, res) => {
       console.log(results)
       res.send(`
         <h1>Full Cycle Rocks!</h1>
+        <p>- Lista de nomes cadastrada no banco de dados.</p>
         <ol>
           ${!!results.length ? results.map(el => `<li>${el.name}</li>`).join('') : ''}
         </ol>
